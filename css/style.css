@@ -1,0 +1,173 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.header-wrapper{
+    width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 7;
+	background-color: white;
+}
+.header{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    max-width: 1171px;
+    width: 100%;
+    margin-left: auto ;
+    margin-right: auto;
+}
+.logo{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.nav-ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 30.9px;
+}
+.li{
+    text-transform: uppercase;
+    color: #303134;
+    margin-left: 49px;
+    font-size: 15.74px;
+}
+.burger-bars{
+    display: none;
+}
+.hero-image {
+    background-image: url("../images/1.jpg");
+    background-color: #cccccc;
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    color: #FFFFFF;
+  }
+  /* +fonts */
+  .li,
+  .text,
+  .left h4,
+  .left h3{
+    font-family: 'Raleway';
+  }
+  .left p,
+  .block p{
+    font-family: 'Raleway';
+  }
+  .title{
+      font-size: 78.74px;
+      margin-bottom: 36px;
+      color:#FFFFFF ;
+      font-family: 'Bona Nova';
+  }
+  .text{
+      font-size: 18px;
+     color:#FFFFFF ;
+  }
+  /* section */
+  .conteiner{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      max-width: 1360px;
+      width: 100%;
+      margin-top: 75px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 93px;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  }
+  .left{
+      max-width: 241px;
+      width: 100%;
+      margin-right: 59px;
+  }
+  .left h4{
+      font-size: 16px;
+      color: #8D8D8D;
+      padding-top: 0;
+      padding-left: 0;
+      text-transform: uppercase;
+  }
+  .left h3{
+      max-width: auto;
+      width: 100%;
+      color: #1A1A1B;
+      font-size: 26px;
+      text-transform: uppercase;
+      margin-bottom: 40px;
+      margin-top: 6.2px;
+  }
+  .left p{
+      max-width: 241px;
+      width: 100%;
+      font-size: 16px;
+      color: #8D8D8D;
+  }
+  .right{
+      max-width: 871px;
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  }
+  .block{
+      max-width: 269px;
+      width: 100%;
+  }
+  .block:nth-child(1),
+  .block:nth-child(4){
+      margin-right: 31.9px;
+  }
+  .block:nth-child(2),
+  .block:nth-child(5){
+      margin-right: 30px;
+  }
+  .block:nth-child(1),
+  .block:nth-child(2),
+  .block:nth-child(3){
+      margin-bottom: 21.6px;
+  }
+  .block img{
+      max-width: 269px;
+      width: 100%;
+      margin-bottom: 24px;
+  }
+  .block h3{
+      max-width: auto;
+      width: 100%;
+      margin-bottom: 8.8px;
+      font-size: 18px;
+  }
+  .block p{
+      max-width: 267px;
+      width: 100%;
+      padding-bottom: 0;
+      font-size: 16px;
+  }
